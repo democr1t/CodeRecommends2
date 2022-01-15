@@ -7,7 +7,7 @@ public class Spawner : MonoBehaviour
 
     private float _repeatRate = 2f;
 
-    void Start()
+    private void Start()
     {
         InvokeRepeating(nameof(Spawn), _delay, _repeatRate);
     }
